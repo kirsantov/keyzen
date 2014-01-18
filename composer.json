@@ -1,0 +1,28 @@
+{
+    "name": "kirsantov/keyzen",
+    "description": "A PHP light weight MVC framework",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Anatolii Kirsantov",
+            "email": "kirsantov@gmail.com"
+        }
+    ],
+    "require": {
+        "php-activerecord/php-activerecord": "v1.1.2",
+        "jms/serializer": "@stable"
+    },
+    "require-dev": {
+    },
+    "suggest": {
+        "symfony/yaml": "To use yaml based configuration.",
+        "symfony/routing": "To use the SymfonyRouteFactory."
+    },
+    "autoload": {
+        "psr-0": {"KeyZ": "src/"}
+    },
+    "config": {
+    },
+    "extra": {
+    }
+}
